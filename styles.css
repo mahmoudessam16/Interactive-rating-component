@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: hsl(216, 12%, 8%);
+}
+body .card {
+  background-color: hsl(212, 17%, 15%);
+  width: 400px;
+  margin-top: 150px;
+  border-radius: 25px;
+  padding: 30px;
+}
+body .card .state-start .star {
+  background-color: hsl(216, 4%, 25%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .card .state-start .info {
+  margin: 20px 0;
+}
+body .card .state-start .info h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 30px;
+}
+body .card .state-start .info p {
+  font-size: 15px;
+  color: hsl(217, 7%, 55%);
+  margin-top: 10px;
+  line-height: 1.6;
+}
+body .card .state-start .selectors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .card .state-start .selectors div {
+  background-color: hsl(216, 4%, 25%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(217, 7%, 55%);
+  font-weight: 700;
+  transition: 0.3s;
+  cursor: pointer;
+  font-size: 15px;
+}
+body .card .state-start .selectors div:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+body .card .state-start button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px 0;
+  border-radius: 20px;
+  background-color: hsl(25, 97%, 53%);
+  font-size: 16px;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  letter-spacing: 3px;
+  border: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+body .card .state-start button:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+.card .thank-state {
+  text-align: center;
+}
+.card .thank-state img {
+  margin-top: 15px;
+}
+.card .thank-state .selection {
+  margin: 15px auto;
+  background-color: hsl(216, 4%, 25%);
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 3px 10px;
+  font-size: 15px;
+  color: hsl(25, 97%, 53%);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card .thank-state h1 {
+  color: hsl(0, 0%, 100%);
+  margin: 30px 0 15px 0;
+}
+.card .thank-state > p {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 400px) {
+  .card {
+    width: 350px !important;
+    margin: 70px 30px 100px 30px !important;
+  }
+}/*# sourceMappingURL=styles.css.map */
